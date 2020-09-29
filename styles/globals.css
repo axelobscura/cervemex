@@ -44,3 +44,21 @@ a {
   font-family: 'Bangers', cursive;
   text-shadow: 2px 2px #000000;
 }
+
+@media (max-width: 575px) {
+  .carousel .carousel-caption h3 {
+    font-size: 3rem;
+  }
+  .carousel .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 736px) {
+  .carousel .carousel-caption h3 {
+    font-size: 3rem;
+  }
+  .carousel .carousel-caption p {
+    font-size: 1rem;
+  }
+}
