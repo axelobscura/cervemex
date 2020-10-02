@@ -20,7 +20,7 @@ const elInput = {
     border: 'none',
     borderRadius: '10px',
     padding: '7px 10px',
-    background: '#000000',
+    background: 'rgba(0,0,0,0.7)',
     color: '#ffffff'
 }
 
@@ -51,7 +51,7 @@ export default function Menu() {
             </Nav>
             <Form inline>
             <input type="text" placeholder="Buscar cerveza..." className="mr-sm-2" style={elInput} />
-            <Button variant="outline-success">buscar</Button>
+            <Button variant="outline-default"><span class="lnr lnr-magnifier"></span></Button>
             </Form>
         </Navbar.Collapse>
     </Navbar>

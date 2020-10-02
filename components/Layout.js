@@ -15,6 +15,7 @@ export default function Layout({ children }){
                 <meta name="description" content="Catálogo de la cerveza mexicana, encuentre de manera sencilla las mejores mracas de cerveza en México." />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
+                <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"></link>
             </Head>
             <Menu />
             <Row>
