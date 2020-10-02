@@ -21,7 +21,8 @@ const elInput = {
     borderRadius: '10px',
     padding: '7px 10px',
     background: 'rgba(0,0,0,0.7)',
-    color: '#ffffff'
+    color: '#ffffff',
+    fontSize: '1rem'
 }
 
 const elLogo = {
