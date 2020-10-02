@@ -29,6 +29,11 @@ const elLogo = {
     height: '120px'
 }
 
+const elBuscador = {
+    background: 'rgba(0,0,0,0.7)',
+    color: '#fff'
+}
+
 export default function Menu() {
     return (
     <Navbar bg="transparent" expand="lg" style={styleNav}>
