@@ -11,7 +11,9 @@ const styleNav = {
     width: '100%', 
     margin: 0, 
     left: 0,
-    color: '#ffffff'
+    color: '#ffffff',
+    fontFamily: 'Bangers',
+    fontSize: '2rem'
 }
 
 const elInput = {
