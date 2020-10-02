@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
 import Head from 'next/head';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Menu from './Menu';
 
 export const siteTitle = 'CERVEMEX - Catálogo de la cerveza mexicana';
 
@@ -15,7 +16,9 @@ export default function Layout({ children }){
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            <Menu />
             <Row>
+                
                 {children}
             </Row>
         </Container>
