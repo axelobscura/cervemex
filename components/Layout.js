@@ -19,7 +19,6 @@ export default function Layout({ children }){
             </Head>
             <Menu />
             <Row>
-                
                 {children}
             </Row>
         </Container>
