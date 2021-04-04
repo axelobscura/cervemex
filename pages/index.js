@@ -9,6 +9,7 @@ export default function Home() {
       <Row style={{margin: '0', padding: '0'}}>
         <Col style={{margin: '0', padding: '0'}}>
           <CarouselIntro />
+    yest
         </Col>
       </Row>
     </Layout>
