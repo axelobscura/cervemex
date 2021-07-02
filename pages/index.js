@@ -8,6 +8,7 @@ export default function Home() {
     <Layout fluid>
       <Row style={{margin: '0', padding: '0'}}>
         <Col style={{margin: '0', padding: '0'}}>
+          test
           <CarouselIntro />
         </Col>
       </Row>
